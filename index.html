@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mega Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <body onload='NextQuestion()'>
+    <section id='title'>
+        <div id="text">Byte Quiz</div>
+    </section>
+    <section id="block">
+        <div id="theme">
+            Conhecimentos Gerais
+        </div>
+        <div id="resultado">
+            <p id="ResultadoText"></p>
+            <p id="Acertos"></p>
+            <p id="listas"></p>
+            <p id="errostext"></p>
+            <p id="erros"></p>
+            <p id="resp"></p>
+        </div>
+        <div id="question"> </div>
+            <p id="alt1"></p>
+            <p id="alt2"></p>
+            <p id="alt3"></p>
+            <p id="alt4"></p>
+            <p id="alt5"></p>
+            <div id="next" onclick="NextQuestion()">
+               <strong>Próximo</strong>
+            </div>
+    </section>
+    <footer>© ProjectsOfCenterGabriel</footer>
+</head>
+<body>
+    <script src="script.js"></script>
+</body>
+</html>
